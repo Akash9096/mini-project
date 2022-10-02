@@ -22,7 +22,7 @@ public class Shoping {
 			Class.forName("com.mysql.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/online", "root", "root");
 		
-			System.out.println("FOR ADMIN PRESS->>1");
+			System.out.println("FOR ADMIN PRESS  ->>1");
 			System.out.println("FOR CUSTOMER PRESS->>2");
 			System.out.println("ENTER CHOICE->>");
 			int c=sc.nextInt();
